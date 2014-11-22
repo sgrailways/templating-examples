@@ -14,6 +14,7 @@
 
     <modules>
         <module>core</module>
+        <module>freemarker-example</module>
         <module>handlebars-example</module>
         <module>mustache-example</module>
         <module>thymeleaf-example</module>
