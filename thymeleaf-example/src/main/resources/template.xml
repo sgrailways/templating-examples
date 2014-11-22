@@ -1,0 +1,4 @@
+<engine th:attr="type=${type}">
+    <name th:text="${name}"></name>
+    <configuration th:text="${configuration}"></configuration>
+</engine>
