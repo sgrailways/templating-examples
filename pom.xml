@@ -15,6 +15,7 @@
     <modules>
         <module>core</module>
         <module>handlebars-example</module>
+        <module>mustache-example</module>
         <module>thymeleaf-example</module>
     </modules>
 
