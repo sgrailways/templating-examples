@@ -1,5 +1,8 @@
 package com.sgrailways.examples.templating.core;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Engine {
     private final String type;
     private final String name;
@@ -21,5 +24,13 @@ public class Engine {
 
     public String getConfiguration() {
         return configuration;
+    }
+
+    public Map<String, String> toMap() {
+        Map<String, String> map = new HashMap<>();
+        map.put("type", type);
+        map.put("name", name);
+        map.put("configuration", configuration);
+        return map;
     }
 }

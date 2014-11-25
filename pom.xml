@@ -18,6 +18,7 @@
         <module>handlebars-example</module>
         <module>mustache-example</module>
         <module>thymeleaf-example</module>
+        <module>velocity-example</module>
     </modules>
 
     <properties>
