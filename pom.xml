@@ -31,6 +31,25 @@
         <slf4j.version>1.7.7</slf4j.version>
     </properties>
 
+    <scm>
+        <url>https://github.com/sgrailways/templating-examples</url>
+        <connection>scm:git:git://github.com/sgrailways/templating-examples.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/sgrailways/templating-examples.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/sgrailways/templating-examples/issues</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
