@@ -17,6 +17,7 @@
         <module>freemarker-example</module>
         <module>handlebars-example</module>
         <module>mustache-example</module>
+        <module>stringtemplate-example</module>
         <module>thymeleaf-example</module>
         <module>velocity-example</module>
     </modules>

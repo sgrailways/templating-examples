@@ -1,0 +1,6 @@
+engine(type, name, configuration) ::= <<
+<engine type="$type$">
+    <name>$name$</name>
+    <configuration>$configuration$</configuration>
+</engine>
+>>
